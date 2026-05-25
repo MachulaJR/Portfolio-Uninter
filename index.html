@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Paulo Veres | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+    <!-- =============================================
+         CABEÇALHO E MENU DE NAVEGAÇÃO FIXO
+         Visível em todas as seções da página
+    ============================================= -->
+    <header id="header">
+        <nav class="navbar">
+            <!-- Logo / Nome -->
+            <div class="nav-logo">JP<span>Veres</span></div>
+
+            <!-- Botão hamburguer para mobile -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <!-- Links de navegação com âncoras para cada seção -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                <li><a href="#formacao" class="nav-link">Formação</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+                <!-- Botão para alternar tema claro/escuro -->
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                        <span id="themeIcon">☀️</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- =============================================
+         SEÇÃO HERO - APRESENTAÇÃO INICIAL
+    ============================================= -->
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Olá, me chamo</p>
+            <h1 class="hero-name">João Paulo Veres</h1>
+            <p class="hero-role">Analista de Planejamento Estrátegico &amp; Power BI</p>
+            <a href="#sobre" class="btn-primary">Conheça meu trabalho</a>
+        </div>
+        <!-- Círculos decorativos de fundo -->
+        <div class="hero-decoration">
+            <div class="circle c1"></div>
+            <div class="circle c2"></div>
+            <div class="circle c3"></div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         SEÇÃO 1: SOBRE MIM
+         Informações pessoais e apresentação
+    ============================================= -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-grid">
+                <!-- Avatar com iniciais -->
+                <div class="sobre-avatar">
+                    <div class="avatar-circle">JP</div>
+                    <!-- Indicador de status online -->
+                    <div class="status-badge">🟢 Disponível</div>
+                </div>
+
+                <!-- Texto de apresentação -->
+                <div class="sobre-texto">
+                    <p>
+                        Sou graduado em <strong>Ciências Contábeis pela UNICENTRO</strong> e atualmente
+                        amplio minha formação cursando <strong>Análise e Desenvolvimento de Sistemas (UNINTER)</strong>
+                        e <strong>MBA em Gestão de Projetos e Metodologias Ágeis (PUCRS)</strong>.
+                    </p>
+                    <p>
+                        Tenho mais de <strong>5 anos de experiência em tecnologia</strong>, atuando com
+                        relatórios gerenciais, infraestrutura e gestão de recursos, unindo visão
+                        estratégica e prática operacional.
+                    </p>
+                    <p>
+                        Nas horas vagas, gosto de praticar atividades esportivas como <strong>corrida,
+                        musculação e boxe</strong>. Também sou fã de <strong>animes</strong>, aprecio uma
+                        boa sobremesa e adoro aproveitar o tempo em casa — meu lugar favorito para
+                        recarregar as energias.
+                    </p>
+
+                    <!-- Informações de contato rápido -->
+                    <ul class="info-list">
+                        <li><span class="info-icon">📧</span> joao.p.verea@gmail.com</li>
+                        <li><span class="info-icon">📱</span> +55 (42) 98413-0717</li>
+                        <li><span class="info-icon">📍</span> Prudentópolis, PR – Brasil</li>
+                        <li><span class="info-icon">🎂</span> 25 anos</li>
+                    </ul>
+
+                    <!-- Links para redes sociais -->
+                    <div class="social-links">
+                        <a href="https://github.com/MachulaJR" target="_blank" rel="noopener noreferrer" class="social-btn">GitHub</a>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-veres-399275384/" target="_blank" rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         SEÇÃO 2: FORMAÇÃO
+         Cursos, formação educacional e certificados
+    ============================================= -->
+    <section id="formacao" class="section alt">
+        <div class="container">
+            <h2 class="section-title">Formação</h2>
+
+            <!-- Bloco: Educação Educacional -->
+            <h3 class="sub-title">🎓 Educação Educacional</h3>
+            <div class="timeline">
+                <!-- Item da linha do tempo -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 – 2028</span>
+                        <h4>Análise e Desenvolvimento de Sistemas</h4>
+                        <p>UNINTER</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 – 2026</span>
+                        <h4>MBA em Gestão de Projetos e Metodologias Ágeis</h4>
+                        <p>PUCRS</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 – 2024</span>
+                        <h4>Ciências Contábeis</h4>
+                        <p>UNICENTRO</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloco: Certificações e Cursos -->
+            <h3 class="sub-title">📜 Certificações e Cursos</h3>
+            <div class="cert-grid">
+                <!-- Cada card de certificação -->
+                <div class="cert-card">
+                    <div class="cert-icon">📊</div>
+                    <h4>Intensivão Power BI - 2025</h4>
+                    <p>Hashtag Treinamentos</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🐍</div>
+                    <h4>Jornada Python - 2025</h4>
+                    <p>Hashtag Treinamentos</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔬</div>
+                    <h4>Imersão Dados Python - 2025</h4>
+                    <p>Alura</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔄</div>
+                    <h4>Mapeamento e Análise de Processos - 2026</h4>
+                    <p>PUCRS</p>
+                </div>
+            </div>    
+         </div>
+    </section>
+
+    <!-- =============================================
+        SEÇÃO 3: PORTFÓLIO
+        Links para trabalhos realizados no GitHub
+    ============================================= -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfólio</h2>
+            <p class="section-subtitle">Projetos desenvolvidos com Excel, Python, SQL e Power BI</p>
+
+            <!-- Grade de cards de projetos -->
+            <div class="projects-grid">
+
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/dashboard-rh.jpg" alt="Projeto Dashboard RH">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">Power BI</span>
+                        </div>
+                        <h3>Dashboard RH: Excel + Power BI</h3>
+                        <p>Dashboard interativo para análise de contratações, desligamentos e turnover, com distribuição de funcionários por cidade, gênero, área e cargo.</p>
+                        <a href="https://github.com/MachulaJR/Dashboard-RH" target="_blank" rel="noopener noreferrer" class="project-link">Ver no GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/dashboard-financeiro.jpg" alt="Projeto Dashboard Financeiro">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">Power BI</span>
+                        </div>
+                        <h3>Dashboard Financeiro: Excel + Power BI</h3>
+                        <p>Dashboard interativo para análise de receitas, custos, impostos e lucros, com insights por cidade, forma de pagamento e variações mensais.</p>
+                        <a href="https://github.com/MachulaJR/Dashboard-Financeiro" target="_blank" rel="noopener noreferrer" class="project-link">Ver no GitHub →</a>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/finance-bi.jpg" alt="Projeto Finance BI">
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Power BI</span>
+                        </div>
+                        <h3>Finance BI: Python + SQL + Power BI</h3>
+                        <p>Dashboard interativo para análise de comportamento financeiro por faixa etária e gênero, integrando dados com Python e SQL e visualizando padrões estratégicos no Power BI.</p>
+                        <a href="https://github.com/MachulaJR/Finance_BI#" target="_blank" rel="noopener noreferrer" class="project-link">Ver no GitHub →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         SEÇÃO 4: CONTATO
+         Formulário com validação em JavaScript
+    ============================================= -->
+    <section id="contato" class="section alt">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <p class="section-subtitle">Vamos conversar? Preencha o formulário abaixo.</p>
+
+            <div class="contact-grid">
+                <!-- Informações de contato -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>joao.p.verea@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p>+55 (42) 98413-0717</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Localização</strong>
+                            <p>Prudentópolis, PR – Brasil</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-veres-399275384/" target="_blank" rel="noopener noreferrer">Ver perfil</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de contato com validação obrigatória em JavaScript -->
+                <form id="contactForm" class="contact-form" novalidate>
+                    <!-- Campo: Nome -->
+                    <div class="form-group">
+                        <label for="nome">Nome *</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                        <span class="field-error" id="erroNome"></span>
+                    </div>
+
+                    <!-- Campo: E-mail -->
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        <span class="field-error" id="erroEmail"></span>
+                    </div>
+
+                    <!-- Campo: Mensagem -->
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem *</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..." required></textarea>
+                        <span class="field-error" id="erroMensagem"></span>
+                    </div>
+
+                    <!-- Botão de envio -->
+                    <button type="submit" class="btn-primary btn-full">Enviar Mensagem</button>
+
+                    <!-- Mensagem de sucesso (oculta por padrão, exibida via JS) -->
+                    <div id="successMessage" class="success-message hidden">
+                        ✅ Mensagem enviada com sucesso! Entrarei em contato em breve.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         RODAPÉ
+    ============================================= -->
+    <footer>
+        <div class="container">
+            <p>© 2025 João Paulo Veres · Trabalho Disciplina Fundamentos da Programação Web</p>
+        </div>
+    </footer>
+
+    <!-- Script principal - carregado no final do body para melhor desempenho -->
+    <script src="main.js"></script>
+
+</body>
+</html>
