@@ -1,6 +1,6 @@
 // =============================================
 // PORTFÓLIO – JOÃO PAULO VERES
-// main.js
+// script.js
 // Funcionalidades: menu responsivo, tema claro/escuro,
 //                  link ativo no scroll e validação do formulário
 // =============================================
